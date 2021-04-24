@@ -1,5 +1,5 @@
 // Your code goes here
-document.addEventListener("DOMContentLoaded", theDomHasLoaded, false);
+document.addEventListener("DOMContentLoaded", theDomHasLoaded);
 function theDomHasLoaded(e) {
 document.querySelector("p").innerHTML = "This is really cool!";
 }
